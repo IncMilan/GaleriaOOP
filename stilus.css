@@ -1,0 +1,40 @@
+@charset "Utf-8";
+
+main {
+  background-color: cadetblue;
+  max-width: 800px;
+  width: 80%;
+  margin: auto;
+}
+header {
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+footer {
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+button {
+  background-color: darkslateblue;
+  margin: auto;
+}
+div {
+  margin: auto;
+}
+#fokep img {
+  width: 100%;
+}
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+}
+article img {
+  width: 100%;
+}
+section {
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+}
